@@ -127,37 +127,20 @@ function Ligne({ label, val }) {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1, alignItems: 'center', justifyContent: 'center',
-    padding: 24, backgroundColor: '#F8FAFC'
-  },
-  titre: {
-    fontSize: 28, fontWeight: 'bold', marginBottom: 24,
-    color: '#1E293B'
-  },
-  btn: {
-    backgroundColor: '#20232A', padding: 16,
-    borderRadius: 12, width: '100%', alignItems: 'center'
-  },
-  btnTxt: { color: '#23B2A4', fontWeight: 'bold', fontSize: 16 },
-  erreur: { color: '#DC2626', marginTop: 16, textAlign: 'center' },
-  card: {
-    width: '100%', marginTop: 20, backgroundColor: '#FFF',
-    borderRadius: 14, padding: 16,
-    borderWidth: 1, borderColor: '#E2E8F0'
-  },
-  ligne: {
-    flexDirection: 'row', justifyContent: 'space-between',
-    paddingVertical: 10, borderBottomWidth: 1,
-    borderBottomColor: '#F1F5F9'
-  },
-  label: { fontSize: 14, color: '#64748B', fontWeight: '600' },
-  val: { fontSize: 14, color: '#1E293B', fontWeight: 'bold' },
-  adresseTitre: {
-    fontSize: 20, fontWeight: 'bold', color: '#1E293B',
-    marginBottom: 10
-  },
-  adresseTexte: {
-    fontSize: 24, color: '#475569', paddingVertical: 3
-  },
+  container: { flex: 1, alignItems: 'center', justifyContent: 'center',
+               padding: 24, backgroundColor: '#F8FAFC' },
+  titre:     { fontSize: 28, fontWeight: 'bold', marginBottom: 24,
+               color: '#1E293B' },
+  btn:       { backgroundColor: '#20232A', padding: 16,
+               borderRadius: 12, width: '100%', alignItems: 'center' },
+  btnTxt:    { color: '#23B2A4', fontWeight: 'bold', fontSize: 16 },
+  erreur:    { color: '#DC2626', marginTop: 16, textAlign: 'center' },
+  card:      { width: '100%', marginTop: 20, backgroundColor: '#FFF',
+               borderRadius: 14, padding: 16,
+               borderWidth: 1, borderColor: '#E2E8F0' },
+  ligne:     { flexDirection: 'row', justifyContent: 'space-between',
+               paddingVertical: 10, borderBottomWidth: 1,
+               borderBottomColor: '#F1F5F9' },
+  label:     { fontSize: 22, color: '#64748B', fontWeight: '600' },
+  val:       { fontSize: 24, color: '#1E293B', fontWeight: 'bold' },
 });
