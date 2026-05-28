@@ -154,10 +154,10 @@ const styles = StyleSheet.create({
   label: { fontSize: 14, color: '#64748B', fontWeight: '600' },
   val: { fontSize: 14, color: '#1E293B', fontWeight: 'bold' },
   adresseTitre: {
-    fontSize: 16, fontWeight: 'bold', color: '#1E293B',
+    fontSize: 20, fontWeight: 'bold', color: '#1E293B',
     marginBottom: 10
   },
   adresseTexte: {
-    fontSize: 14, color: '#475569', paddingVertical: 3
+    fontSize: 24, color: '#475569', paddingVertical: 3
   },
 });
