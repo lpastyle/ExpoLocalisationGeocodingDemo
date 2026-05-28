@@ -93,6 +93,6 @@ const styles = StyleSheet.create({
   ligne:     { flexDirection: 'row', justifyContent: 'space-between',
                paddingVertical: 10, borderBottomWidth: 1,
                borderBottomColor: '#F1F5F9' },
-  label:     { fontSize: 14, color: '#64748B', fontWeight: '600' },
-  val:       { fontSize: 14, color: '#1E293B', fontWeight: 'bold' },
+  label:     { fontSize: 22, color: '#64748B', fontWeight: '600' },
+  val:       { fontSize: 24, color: '#1E293B', fontWeight: 'bold' },
 });
